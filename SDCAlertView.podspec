@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
 
   s.source_files     = "Source/**/*.{swift}"
   s.resource_bundles = { 'SDCAlertView' => ['Source/**/*.{xib}'] }
+  s.resources = "Source/**/*.{xib}"
   
   s.ios.deployment_target = 9.0
   s.requires_arc = true
